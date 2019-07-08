@@ -3,9 +3,9 @@ const container = document.querySelector(".container");
 
 
 
-function createGrid(){
+function createGrid() {
 
-    for(let i = 0; i<256; i++){
+    for (let i = 0; i < 256; i++) {
         const div = document.createElement("div");
         div.classList.add("grid");
         div.textContent = i;
@@ -27,10 +27,12 @@ btn.addEventListener('click', () => {
 
 var abbrs = document.getElementsByClassName("grid");
 
-    var index,l=abbrs.length;
-    for (index = 0; index < l; ++index) {
-        console.log(abbrs[index]);
-        abbrs[index].onmouseover = function() {
-            console.log(this);
-        }
+var index, l = abbrs.length;
+for (index = 0; index < l; ++index) {
+    console.log(abbrs[index]);
+    abbrs[index].onmouseover = function () {
+        var gridBehaviour = document.querySelector('.grid');
+
+        gridBehaviour.setAttribute("class", "filledGrid");
     }
+}
