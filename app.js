@@ -23,5 +23,5 @@ btn.addEventListener('click', () => {
 
 var gridBehaviour = document.querySelector('.grid');
 gridBehaviour.addEventListener('click', () => {
-    gridBehaviour.setAttribute("grid", "filledGrid");
+    gridBehaviour.setAttribute("class", "filledGrid");
 });
