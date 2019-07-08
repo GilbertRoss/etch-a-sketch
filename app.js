@@ -32,7 +32,9 @@ btn.addEventListener('click', () => {
     createGrid();
 });
 
+while(true){
 var gridBehaviour = document.querySelector('.grid');
 gridBehaviour.addEventListener('mouseover', () => {
     gridBehaviour.setAttribute("class", "filledGrid");
 });
+}
