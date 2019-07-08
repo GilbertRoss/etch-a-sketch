@@ -21,11 +21,11 @@ function clearGrid(){
 }; 
 
 
-createGrid(16);
 
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
     clearGrid();
+    createGrid(16);
 });
 
 
