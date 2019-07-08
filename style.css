@@ -26,13 +26,3 @@ h1{
     width: 60px;
     height: 60px;
 }
-.filledGrid{
-    margin:0;
-	padding:0;
-	border:none;
-	outline:1px solid #000;
-    display:inline-block;
-    width: 60px;
-    height: 60px;
-    background-color: #000;
-}

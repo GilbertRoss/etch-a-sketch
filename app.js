@@ -17,22 +17,11 @@ function createGrid() {
 
 createGrid();
 
-var btn = document.querySelector('#btn');
-btn.addEventListener('click', () => {
-    var gridBehaviour = document.querySelector('.filledGrid');
-
-    gridBehaviour.setAttribute("class", "grid");
-});
+function clearGrid(){
+    $(".grid").remove();
+};  
 
 
-var abbrs = document.getElementsByClassName("grid");
-
-var index, l = abbrs.length;
-for (index = 0; index < l; ++index) {
-    console.log(abbrs[index]);
-    abbrs[index].onmouseover = function () {
-        var gridBehaviour = document.querySelector('.grid');
-
-        gridBehaviour.setAttribute("class", "filledGrid");
-    }
-}
+$(".grid").mouseover(function() {
+    $(this).css("background-color", "black");
+    });
