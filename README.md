@@ -1,1 +1,1 @@
-This a readme file.
+This project was an assignment from theOdinProject.
