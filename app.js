@@ -1,4 +1,4 @@
-const container = document.getElementsByClassName(".container");
+const container = document.querySelector(".container");
 
 
 
