@@ -9,8 +9,8 @@ function createGrid(x) {
         const div = document.createElement("div");
         div.classList.add("grid");
         div.textContent = i;
-        div.style.height = 960/x;
-        div.style.width = 960/x;
+        div.style.height = 960/x +"px";
+        div.style.width = 960/x + "px";
         container.appendChild(div);
     }
 
