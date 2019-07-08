@@ -5,7 +5,7 @@ const container = document.querySelector(".container");
 
 function createGrid(){
 
-    for(let i = 0; i<17; i++){
+    for(let i = 0; i<(16*16)+1; i++){
         const div = document.createElement("div");
         div.classList.add("grid");
         div.textContent = i;
