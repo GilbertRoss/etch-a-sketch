@@ -13,10 +13,10 @@ h1{
     background: #ed3330;
     padding: 20px;
     border-radius: 5px;
-    display: inline-block;
+    display: block;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 500px;
+    margin: auto;
 }
 
 #btn:hover{
