@@ -35,6 +35,7 @@ btn.addEventListener('click', () => {
     clearGrid();
     let size = prompt("How many squares per side do you want?")
     createGrid(Number(size));
+    gridBe();
 });
 
 gridBe();
