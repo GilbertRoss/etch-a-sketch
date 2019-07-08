@@ -22,6 +22,6 @@ btn.addEventListener('click', () => {
 });
 
 var gridBehaviour = document.querySelector('.grid');
-gridBehaviour.addEventListener('mouseover', () => {
+gridBehaviour.addEventListener('click', () => {
     gridBehaviour.setAttribute("grid", "filledGrid");
 });
