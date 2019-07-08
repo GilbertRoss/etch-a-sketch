@@ -1,2 +1,2 @@
 const container = document.getElementsByClassName(container);
-container.style.color = blue;
+container.setAttribute("style", "background-color: red;");
