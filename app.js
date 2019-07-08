@@ -27,7 +27,8 @@ function clearGrid(){
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
     clearGrid();
-    createGrid(16);
+    let size = prompt("How many squares per side do you want?")
+    createGrid(Number(size));
 });
 
 
