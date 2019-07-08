@@ -16,6 +16,7 @@ h1{
     display: inline-block;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
 }
 
 #btn:hover{
