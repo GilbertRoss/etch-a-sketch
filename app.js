@@ -14,4 +14,13 @@ function createGrid(){
 
 }
 
+var btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+    createGrid();
+});
+
+var gridBehaviour = document.querySelector('.grid');
+gridBehaviour.addEventListener('mouseover', () => {
+    gridBehaviour.setAttribute("grid", "filledGrid");
+});
 createGrid();
