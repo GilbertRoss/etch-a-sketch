@@ -16,6 +16,8 @@ function createGrid(x) {
 
 }
 
+createGrid(16);
+
 function clearGrid(){
     $(".grid").remove();
 }; 
