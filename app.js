@@ -16,6 +16,12 @@ function createGrid(x) {
 
 }
 
+function gridBe(){
+    $(".grid").mouseover(function() {
+        $(this).css("background-color", "black");
+        });
+}
+
 createGrid(16);
 
 function clearGrid(){
@@ -31,7 +37,5 @@ btn.addEventListener('click', () => {
     createGrid(Number(size));
 });
 
+gridBe();
 
-$(".grid").mouseover(function() {
-    $(this).css("background-color", "black");
-    });
