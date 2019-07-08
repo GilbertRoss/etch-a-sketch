@@ -24,6 +24,7 @@ createGrid();
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
     clearGrid();
+    createGrid();
 });
 
 
