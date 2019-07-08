@@ -14,12 +14,17 @@ function createGrid() {
 
 }
 
+function clearGrid(){
+    $(".grid").remove();
+}; 
+
 
 createGrid();
 
-function clearGrid(){
-    $(".grid").remove();
-};  
+var btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+    clearGrid();
+});
 
 
 $(".grid").mouseover(function() {
