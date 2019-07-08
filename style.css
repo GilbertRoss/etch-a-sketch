@@ -32,12 +32,13 @@ h1{
 	position: relative;
 	top: 30px;
 	outline:2px solid #000;
-	font-size: 0;
+    font-size: 0;
+    display: block;
 	margin:auto;
 	height:960px;
 	width:960px;
 	padding: 0;
-	border: none;
+    border: none;
 }
 
 .grid {
